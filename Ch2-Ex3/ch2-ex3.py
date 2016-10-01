@@ -10,7 +10,7 @@
 #
 # Notes:
 #
-# I hope this was submitted properl
+# I hope this was submitted properly
 
 # Ask user to input total square meters of land
 # Convert value to float and assign float to variable
