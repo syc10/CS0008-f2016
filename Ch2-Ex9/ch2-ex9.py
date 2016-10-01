@@ -1,3 +1,4 @@
+# Needs work
 # ask pocket number (1-36), displays a number
 
 # First thing to do: ask user for an input
