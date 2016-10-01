@@ -10,7 +10,7 @@
 #
 # Notes:
 #
-# I hope this was submitted properly
+# I hope this was submitted properl
 
 # Ask user to input total square meters of land
 # Convert value to float and assign float to variable
@@ -18,3 +18,4 @@ SqMeters = float(input("Enter total amount of land in square meters: "))
 # Convert input stored in SqMeters to acres
 Acres = (SqMeters/4046.8564224)
 print(Acres)
+
