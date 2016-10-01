@@ -1,0 +1,12 @@
+INPUT:
+USC or Metric? Metric
+Distance driven in km? 100000
+Gasoline used in liters? 100000
+
+OUTPUT:
+							   USC			   Metric
+Distance _____________ : 62137.100 miles   100000.000 Km
+Gas __________________ : 26417.200 gallons 100000.000 Liters
+Consumption __________ :     2.352 mpg        100.000 1/100Km
+
+Gas Consumption Rating : Extremely Poor
