@@ -11,3 +11,6 @@ The variables Distance and Gas were always USC, and Distance_Metric and Gas_Metr
 After finding values for all 4 variables, they could be divided to find the consumption.
 The metric consumption, or cm, was finally compared to the ratings.
 Everything was printed and formatted.
+
+Note: On github, the spacing for the output does not align well (the USC and Metric labels are too far ahead).
+It also does not line up well in IDLE. However, it lined up in Pycharm.
