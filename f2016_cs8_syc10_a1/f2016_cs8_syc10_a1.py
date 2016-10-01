@@ -16,7 +16,7 @@ Unit = input("USC or Metric? ")
 if Unit == "USC":
 #Ask user for distance in miles, assign to variable Distance as a float
     Distance = float(input("Distance driven in miles? "))
-#Ask user for gas used in gallons, assign to varible Gas as a float
+#Ask user for gas used in gallons, assign to variable Gas as a float
     Gas = float(input("Gasoline used in gallons? "))
 #Calculate distance in kilometers by using Distance, assign to variable Distance_Metric. Answer will be a float
     Distance_Metric = Distance * 1.60934
@@ -64,7 +64,7 @@ else:
 #I lined up the columns using tabs and spaces
 print("\t\t\t\t\t\t\t   USC\t\t\t   Metric\n"
 #I printed both USC distance and metric distance with an accuracy of 3
-#The width was 10 (6 digits + 1 decimal point + 3 decimal places). I then labelled with units
+#The width was 10 (6 digits + 1 decimal point + 3 decimal places). I then labeled with units
       "Distance _____________ :" + format(Distance, '10.3f') + " miles   " + \
       format (Distance_Metric, '10.3f') + " Km\n"\
 #I did a similar thing for USC gas and metric gas
