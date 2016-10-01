@@ -5,3 +5,9 @@ Using the four values, the program calculates gas consumption (mpg and 1/100Km).
 The program then compares the 1/100Km value to rank the gas consumption.
 Finally, the program prints all relevant data.
 
+At the start of the program, an input function was necessary to obtain information from the user.
+Since all unit systems and their values are used in the end, I kept them consistent.
+The variables Distance and Gas were always USC, and Distance_Metric and Gas_Metric were always metric.
+After finding values for all 4 variables, they could be divided to find the consumption.
+The metric consumption, or cm, was finally compared to the ratings.
+Everything was printed and formatted.
