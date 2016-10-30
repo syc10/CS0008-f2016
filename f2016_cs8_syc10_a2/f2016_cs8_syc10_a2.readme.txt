@@ -1,0 +1,12 @@
+This program opens multiple files. It counts the number of lines in the file and adds up the total.
+The number of lines is stored as the partial total number of lines and the distance is stored as the partial distance.
+After the user enters all the files needed, the program adds together all of the number of lines and distances and shows the toal for each.
+
+At the start of the program, the program asks the user for the first file. It opens the file and adds up the appropriate numbers.
+This is done in the processFile function. This function takes the file and adds up all of the lines and distances.
+The function then returns the totals. The totals are displayed with the printKV function.
+The printKV function is like a print function but it also provides formatting depending on the type of argument presented.
+This function identifies and formats strings, ints, and floats. The appropriate formatting is applied.
+After the user is finished with entering files, the program adds up all of the totals and displays them once again.
+It uses the printKV file to print with consistent formatting.
+
