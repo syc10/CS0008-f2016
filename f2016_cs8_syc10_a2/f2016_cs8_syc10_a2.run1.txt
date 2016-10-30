@@ -1,0 +1,19 @@
+INPUT:
+
+D1.csv and D2.csv from CourseWeb
+
+OUTPUT:
+
+File to be read: D1.csv
+Partial Total # of lines :         50
+Partial distance run     :   2298.967
+
+File to be read: D2.csv
+Partial Total # of lines :         50
+Partial distance run     :   2195.061
+
+File to be read: q
+
+Totals
+Total # of lines:        :        100
+Total distance run:      :   4494.027
