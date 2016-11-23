@@ -10,9 +10,6 @@
 # Notes:
 #
 #
-#
-#
-#
 #1. Read master input list file (txt). Obtain names of files
 #
 #2. Extract name and distance
@@ -66,6 +63,7 @@ def openFile(MIF):
 def processFile(datafile):
 #Creates an empty dictionary for each file
     dict = {}
+    list1 = []
 #Opens the data file listed in master
     file = open(datafile, 'r')
 #Initializes number of lines and partial distance to 0
@@ -78,20 +76,22 @@ def processFile(datafile):
 #Strips '\n' off of each line and splits name from distance
         name = line.rstrip('\n')
         temp = line.split(',')
-#
+#Assigns first part to readname
         readname = temp[0]
+#Assigns second part to readnum
         readnum = temp[1]
+#Adds all distances together
         pd += float(readnum)
+#If name already exists, adds distance
         if readname in dict:
             dict[readname] += float(readnum)
+#If name does not exist, make a new dictionary entry
         else:
             dict[readname] = float(temp[1])
+            list1.append([readname, 1, readnum])
+#Close file
     file.close()
-#    print(dict)
-
-
-
-
+#Return useful tidbits of information
     return numlines, pd, dict
 
 
