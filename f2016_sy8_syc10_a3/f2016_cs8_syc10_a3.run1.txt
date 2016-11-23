@@ -1,0 +1,23 @@
+INPUT
+
+Master input file name: text.txt
+#I renamed the original files in the .zip to simpler things for the sake of saving time while inputting
+
+OUTPUT
+
+Number of Input files read   : 3
+Total number of lines read   : 450
+
+Total distance run           : 23222.955949687006
+
+max distance run             : 205.82148177
+  by participant             : Glynis
+
+min distance run             : 0.057889447
+  by participant             : Alex
+
+Total number of participants : 388
+Number of participants
+ with multiple records       :
+
+Process finished with exit code 0
