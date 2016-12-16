@@ -1,0 +1,5 @@
+In this assignment, I tried to make revisions to Assignment 3 to fit the assignment and use classes. It did not go well.
+First, I got rid of the problem when the program fails to work with the first line.
+Instead of an error, the program now skips the first line if it does not contain meaningful data.
+For the classes, I was unsure of how to incorporate it into the program.
+I first started by creating the class and its methods

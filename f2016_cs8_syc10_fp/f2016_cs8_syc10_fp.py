@@ -16,11 +16,36 @@
 
 #Creates class Participants
 class Participants:
+    #Initializes name as unknown, distance as 0, and runs as 0
+    name = "unknown"
+    distance = 0
+    runs = 0
     #Initializer methods
     def __init__(self, name, distance, runs):
+        #Sets name as the one listed
         self.name = name
-        self.distance = distance
-        self.runs = runs
+        #Checks if distance already exists
+        if distance > 0:
+            #Set distance
+            self.distance = distance
+            self.runs = runs
+    # __str__ method
+    #def __str__(self):
+    # addDistance method
+    def addDistance(self, d):
+        #Checks if distance is valid
+        if distance > 0:
+            #Adds to total distance
+            self.distance += distance
+            self.runs += 1
+    def addDistances(self, ld):
+        for distance in distances:
+            if distance > 0:
+                self.distance += distance
+                self.runs += 1
+
+    #def getDistance(self):
+    #def getName(self):
 
 
 #This function opens the Master input file, then opens the files that are in the Master. It then processes a lot of the data
