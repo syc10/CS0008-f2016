@@ -21,7 +21,7 @@ class Participants:
         self.name = name
         self.distance = distance
         self.runs = runs
-#
+
 
 #This function opens the Master input file, then opens the files that are in the Master. It then processes a lot of the data
 def openFile(MIF):
