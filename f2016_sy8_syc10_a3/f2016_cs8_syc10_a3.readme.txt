@@ -1,0 +1,16 @@
+#1. Read master input list file (txt). Obtain names of files
+#
+#2. Extract name and distance
+#
+#3. Compute the following
+#   Number of files read
+#   Total number of lines read
+#   Total distance run (sum of all distances loaded from provided files)
+#   Total distance run for each individual
+#   Individual maximum distance run and by who
+#   Individual minimum distance run and by who
+#   Note who appears more than once, and how many times they appear
+#   Total number of participants
+
+
+This program
