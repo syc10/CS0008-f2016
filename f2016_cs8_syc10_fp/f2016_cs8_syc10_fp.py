@@ -9,8 +9,8 @@
 # Final Project
 #
 # Notes:
+# MN: you defined the class requested (not completely), but you never used it in your program
 #
-
 
 
 
